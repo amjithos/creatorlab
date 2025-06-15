@@ -1,10 +1,10 @@
 import React from 'react'
-import Carousel from '../components/Carousel'
+// import Carousel from '../components/Carousel'
 
 const Home = () => {
   return (
     <div className="home-root">
-      <Carousel />
+      {/* <Carousel /> */}
       <h1>Home</h1>
     </div>
   )

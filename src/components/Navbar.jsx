@@ -9,7 +9,7 @@ import useWindowWidth from '../hooks/useWindowWidth';
 const navItems = [
   { id: 'nav-home', label: 'Home', value: 'home', icon: FaHome, path: '/' },
   { id: 'nav-audio', label: 'Audio', value: 'audio', icon: MdAudiotrack, path: '/audio' },
-  { id: 'nav-video', label: 'Video', value: 'video', icon: MdVideocam, path: '/video' },
+  { id: 'nav-video', label: 'Video', value: 'video', icon: MdVideocam, path: '/videos' },
   { id: 'nav-about', label: 'About', value: 'about', icon: IoInformationCircle, path: '/about' },
 ];
 

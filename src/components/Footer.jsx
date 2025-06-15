@@ -18,6 +18,8 @@ const Footer = () => {
     background: '#181e29',
     color: '#fff',
     padding: 0,
+    margin: 0,
+    border: 'none',
   };
   const containerStyle = {
     maxWidth: isMobile ? '100%' : '1100px',
@@ -134,7 +136,7 @@ const Footer = () => {
       <div style={containerStyle}>
         <div style={centerTextStyle}>
           <h2 style={headingStyle}>World of Web-Experiments</h2>
-          <p style={subTextStyle}>Learn. Lelearn. Teach.</p>
+          <p style={subTextStyle}>Learn. Relearn. Teach.</p>
           <div style={downloadRowStyle}>
             <a
               href="#"
@@ -189,7 +191,7 @@ const Footer = () => {
           </div>
         </div>
         <div style={bottomRowStyle}>
-          <p style={{margin: 0}}>&copy; Beautiful Footer, 2021.</p>
+          <p style={{margin: 0}}>&copy; Creatorlab V1.0.3</p>
           <div style={linksRowStyle}>
             {footerLinks.map((link, idx) => (
               <React.Fragment key={link.name}>
