@@ -15,7 +15,7 @@ const Footer = () => {
   // Responsive footer styles
   const footerStyle = {
     width: '100vw',
-    background: '#181e29',
+    background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)',
     color: '#fff',
     padding: 0,
     margin: 0,
