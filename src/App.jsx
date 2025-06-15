@@ -7,13 +7,14 @@ import Videos from './pages/Videos'
 import Audio from './pages/Audio'
 import About from './pages/About'
 import './css/App.css'
+import './css/index.css'
 
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="flex flex-col min-h-screen bg-[#181e29]">
         <Navbar />
-        <main className="main-content">
+        <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/videos" element={<Videos />} />
