@@ -17,7 +17,7 @@ function App() {
   const navPad = isMobile ? 80 : 88;
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-[#181e29]">
+      <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1" style={{ paddingTop: navPad }}>
           <Routes>

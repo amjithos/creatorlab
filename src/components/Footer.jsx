@@ -15,7 +15,7 @@ const Footer = () => {
   // Responsive footer styles
   const footerStyle = {
     width: '100vw',
-    background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)',
+    background: 'transparent',
     color: '#fff',
     padding: 0,
     margin: 0,
@@ -28,6 +28,7 @@ const Footer = () => {
     display: 'flex',
     flexDirection: 'column',
     minHeight: isMobile ? 'auto' : '350px',
+    background: 'transparent',
   };
   const centerTextStyle = {
     textAlign: 'center',

@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #18122B 0%, #120B1C 50%, #6C2EB7 100%);
+  background: black;
   box-sizing: border-box;
   overflow-x: hidden;
 }
