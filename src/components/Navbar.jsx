@@ -89,7 +89,7 @@ const GlassNavSelector = () => {
     position: 'relative',
     zIndex: 20,
     display: 'flex',
-    minWidth: isMobile ? '44px' : '60px',
+    minWidth: isMobile ? '20%' : '30px',
     cursor: 'pointer',
     alignItems: 'center',
     justifyContent: 'center',

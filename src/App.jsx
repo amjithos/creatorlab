@@ -8,13 +8,18 @@ import Audio from './pages/Audio'
 import About from './pages/About'
 import './css/App.css'
 import './css/index.css'
+import useWindowWidth from './hooks/useWindowWidth'
 
 function App() {
+  const width = useWindowWidth();
+  const isMobile = width < 640;
+  // Adjust this value to match your navbar height + margin
+  const navPad = isMobile ? 80 : 88;
   return (
     <Router>
       <div className="flex flex-col min-h-screen bg-[#181e29]">
         <Navbar />
-        <main className="flex-1">
+        <main className="flex-1" style={{ paddingTop: navPad }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/videos" element={<Videos />} />

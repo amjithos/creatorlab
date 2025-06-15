@@ -12,15 +12,11 @@ const Footer = () => {
     { name: 'Privacy Policy', path: '/privacy' },
   ];
 
-  // Responsive fixed footer styles
+  // Responsive footer styles
   const footerStyle = {
     width: '100vw',
     background: '#181e29',
     color: '#fff',
-    position: 'fixed',
-    left: 0,
-    bottom: 0,
-    zIndex: 1000,
     padding: 0,
   };
   const containerStyle = {
